@@ -7,10 +7,16 @@
 	font-family: Helvetica, Arial, san-serif;
 }
 
+/*nav bar */
+
+
+
+/* product specs page start */
 h2 {
 	font-weight: 200;
 	margin-top: -20px;
 }
+
 
 tr:nth-child(even){
 	background-color: #EBEBD4;
@@ -19,10 +25,11 @@ tr:nth-child(even){
 th {
 	text-align: left;
 	border-left: 1px solid #D3D3D3;
+	padding: 5px 15px;
 }
 
 td {
-	padding: 3px 30px;
+	padding: 5px 30px;
 	border-left: 1px solid #D3D3D3;
 	border-right: 1px solid #D3D3D3;
 	
@@ -31,6 +38,8 @@ td {
 table{
 	border-collapse: collapse;
 	border-bottom: 1px solid #D3D3D3;
+	margin: 20px;
+	
 
 }
 tr:nth-child(2) {
@@ -43,4 +52,8 @@ tr:nth-child(2) {
 }
 
 
-
+span {
+	font-style: italic;
+	font-weight: 100;
+}
+/* product specs page end */
