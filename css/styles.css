@@ -8,13 +8,51 @@
 }
 
 /*nav bar */
+nav {
+	background-color: lightblue;
+	height: 50px;
+	width: 100%;
+}
+ul {
+	list-style-type: none;
+}
 
+li {
+	float: left;
+	display: block;
+	width: 100px;
+	line-height: 50px;
+
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	color: cornflowerblue;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color: aqua;
+}
 
 
 /* product specs page start */
+
+h1 {
+	margin-left: 20px;
+}
 h2 {
+	float: left;
 	font-weight: 200;
 	margin-top: -20px;
+	margin-left: 20px;
 }
 
 
@@ -36,6 +74,7 @@ td {
 }
 
 table{
+	float: left;
 	border-collapse: collapse;
 	border-bottom: 1px solid #D3D3D3;
 	margin: 20px;
