@@ -28,6 +28,10 @@
 		<h1>Contact Information</h1>
 		<label>First Name:<input type="text" name="firstname"></label>
 		<label>Last Name:<input type="text" name="lastname"></label>
+		<p>Gender:</p>
+		<label><input type="radio" name="gender" value="Male">Male</label>
+		<label><input type="radio" name="gender" value="Female">Female</label>
+		<label><input type="radio" name="gender" value="Prefer not to disclose">Prefer not to disclose</label>
 		<fieldset>
 		<label>Address:<input type="text" name="address"></label>
 		<label>City:<input type="text" name="city"></label>
@@ -91,10 +95,7 @@
 		<label>Phone Number:<input type="tel" name="phonenumber"></label>
 		<label>Email:<input type="email" name="email"></label>
 		</fieldset>
-		<p>Gender:</p>
-		<label><input type="radio" name="gender" value="Male">Male</label>
-		<label><input type="radio" name="gender" value="Female">Female</label>
-		<label><input type="radio" name="gender" value="Prefer not to disclose">Prefer not to disclose</label>
+		
 		<fieldset>
 		<p>Favorite Colors (check five)</p>
 		<label>White<input type="checkbox" name="color" value="White"></label>
@@ -110,8 +111,18 @@
 		</fieldset>
 		<fieldset>
 			<p>Credit Card Type:</p>
+			<input type="radio"><img src="images/visa.gif" alt="visa">
+			<input type="radio"><img src="images/mastercard1979.gif" alt="mastercard">
+			<input type="radio"><img src="images/american_express.gif">
+			
+			<label>*Card holder name:<input type="text" name="Card holder name"></label>
+			<label>*Card Number:<input type="text" name="Card number"></label>
+			<label>*Security Code:<input type="text" name="security code"></label>
+			<label>*Expiration Date:<input type="date" name="expirationdate"></label>
+			
 			
 		</fieldset>
+		<input type="submit" value="Submit">
 	</form>
 	
 	
