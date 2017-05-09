@@ -96,4 +96,10 @@ span {
 	font-style: italic;
 	font-weight: 100;
 }
+
 /* product specs page end */
+
+form img {
+	width: 50px;
+}
+
