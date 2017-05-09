@@ -4,7 +4,7 @@
 
 
 * {
-	font-family: Helvetica, Arial, san-serif;
+	font-family: 'roboto', san-serif;
 }
 
 /*nav bar */
@@ -46,11 +46,12 @@ a:active {
 /* product specs page start */
 
 h1 {
+	font-weight: 500;
 	margin-left: 20px;
 }
 h2 {
 	float: left;
-	font-weight: 200;
+	font-weight: 100;
 	margin-top: -20px;
 	margin-left: 20px;
 }
