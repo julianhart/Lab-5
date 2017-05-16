@@ -102,4 +102,6 @@ span {
 form img {
 	width: 50px;
 }
-
+form h1 {
+	margin-top: 50px;
+}
